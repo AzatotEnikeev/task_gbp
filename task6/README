@@ -1,0 +1,2 @@
+Для запуска uvicorn
+uvicorn app.main:app --reload

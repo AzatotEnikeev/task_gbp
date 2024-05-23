@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "task6"
+version = "0.1.0"
+description = ""
+authors = [
+    "Enikeev Azat <marateni@gmail.com>",
+]
+readme = "README"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.29.0"
+fastapi = "^0.111.0"
+pydantic = "^2.7.1"
+pandas = "^2.2.2"
+httpx = "^0.27.0"
+pytest = "^8.2.1"
+freezegun = "^1.5.1"
+trio = "^0.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

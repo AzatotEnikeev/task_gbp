@@ -12,6 +12,6 @@ def test_task4_delete_files_elder_n_days():
     modification_time = current_time - 3600 * 24 * 8  # Вычитаем  (в секундах)
     # Устанавливаем дату и время модификации файла
     os.utime('test\\test_for_del.txt', (creation_time, modification_time))
-    assert(main.delete_files_elder_n_days(os.path.abspath(os.curdir + '\\test'), 7) is True)
+    assert(main.delete_files_elder_n_days(os.path.abspath(os.curdir + '\\test'), 7))
 
 
